@@ -198,3 +198,17 @@ Puedes modificar, distribuir y utilizar el código con fines académicos bajo es
 
 > **Repositorio oficial:**  
 > 🔗 [https://github.com/AlejoTechEngineer/Proyecto_Saber_Pro_IA_Tutor_Virtual_UDC](https://github.com/AlejoTechEngineer/Proyecto_Saber_Pro_IA_Tutor_Virtual_UDC)
+## Arquitectura
+
+```mermaid
+flowchart TD
+    A[Estudiante] --> B[Interfaz de Usuario - Web / Desktop]
+    B --> C[Modulo de Tutoria IA - Retroalimentacion inteligente]
+    C --> D[Simulaciones Saber Pro - Preguntas y respuestas]
+    C --> E[Analisis de Desempeno - Reportes de progreso]
+    D --> F[(Base de Datos - Preguntas y resultados)]
+    E --> F
+    G[Archivos .zip/.rar - Git LFS] --> C
+    F --> H[Retroalimentacion al estudiante]
+    H --> A
+```
