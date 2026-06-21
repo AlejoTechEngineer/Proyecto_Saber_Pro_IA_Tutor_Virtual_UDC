@@ -1,6 +1,13 @@
+<div align="center">
+
 # 🧠 Proyecto Saber Pro IA - Tutor Virtual UDC
 
 ## 📘 Descripción General
+
+</div>
+
+---
+
 Este repositorio contiene el desarrollo completo del **Tutor Virtual para la preparación Saber Pro**, una solución basada en **Inteligencia Artificial** que asiste a los estudiantes en la preparación de la prueba mediante simulaciones, análisis de desempeño y retroalimentación inteligente.
 
 El proyecto integra módulos de interfaz, lógica de tutoría, bases de datos y archivos de soporte (.zip, .rar) gestionados mediante **Git Large File Storage (LFS)** para un manejo eficiente de archivos grandes.
